@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 375px)  {
+@media only screen and (min-width: 320px) and (max-width: 450px) {
 	/*.FlexContainer {
 		display: flex;
 		flex-direction: column;
@@ -69,12 +69,17 @@
 
 
 .phoneNumber{
-color: #32b4ac;
-position: absolute;
-    right: 0px;
-    padding: 16px;
-    top: 2%;
-}
+  color: #32b4ac;
+  position: absolute;
+  right: 0px;
+  padding: 16px;
+  top: 2%;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;}
 
 
 a{
