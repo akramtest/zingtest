@@ -99,6 +99,9 @@ position: relative;
 .material-icons.md-34 {
   font-size: 34px;
   color:  #a4027a;
+  border: none;
+    background-color: transparent;
+    outline: none;
 }
 
 /* I got rid of a few things here because it was keeping the phone from being in line -Cana */
