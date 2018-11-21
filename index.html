@@ -14,13 +14,17 @@
   <body>
 
     <header>
-
-        <img src="https://www.zingermans.com/images/master/mobile-logo.png" alt="Zingerman's Logo" class= "logo">
-    <div class = "subHeader" >
-      <h1> The online shop for food lovers</h1>
-    </div>
       <div class= "container" >
+        <!-- I created a class called zLogo to house all the logo elements within the header. Cana -->
+        <div class="zLogo">
+            <img src="https://www.zingermans.com/images/master/mobile-logo.png" alt="Zingerman's Logo" class= "logo">
+<img src= "http://www.zingermanscommunity.com/wp-content/uploads/2008/05/mail_order.gif" alt="Zing mail drawing" class="zingDraw" />
+            <div class = "subHeader" >
+            <h1> The online shop for food lovers</h1>
+            </div>
+        </div>
 
+<!-- I hid this so it wouldn't pop up when I was trying to get the icons in line. Cana -->
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <a href="https://www.zingermans.com/Account/Login.aspx?ReturnUrl=/Account/&z=1"><li>My Account</li></a>
@@ -29,32 +33,27 @@
         </div>
 
 
-        <div id="main">
+        <div id="main2">
+          <!-- I put the hamburger, magnifying glass and telephone in a div to called main2 to make it easier to style. Cana -->
+            <div id="main">
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
 
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <div class="phoneNumber" >
+              <button type="button"><a href="tel:+1-888-696-8162"><i class="material-icons md-34">call</i></a></button>
+            </div>
+
+            <div class="search-container">
+              <div class="search-icon-btn"><i class="fa fa-search fa-lg"></i></div>
+
+              <div class="search-input"><input type="search" class="search-bar" placeholder="Search for a product"></div>
+            </div>
         </div>
 
 
 
-    <div class = "phoneNumber" >
-      <button type="button">
-        <a href="tel:+1-888-696-8162">
-          <i class="material-icons md-34">
-            call
-          </i>
-        </a>
-      </button>
-    </div>
 
 
-    <div class="search-container">
-      <div class="search-icon-btn">
-        <i class="fa fa-search fa-lg"></i>
-      </div>
-      <div class="search-input">
-        <input type="search" class="search-bar" placeholder="Search for a product">
-      </div>
-    </div>
 
 
 
@@ -68,6 +67,7 @@
 
   </div>
 
+  <img src="https://www.zingermans.com/images/master/stitch-pattern.png" alt="bottom Border" class="bottomBorder" />
 
 
 
